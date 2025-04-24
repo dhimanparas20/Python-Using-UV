@@ -1,7 +1,7 @@
 # 🚀 Python Using UV + Flask + Docker
 
 Welcome to the **Python Using UV** learning project! This simple yet powerful setup is aimed at exploring [**UV**](https://docs.astral.sh/uv/), the blazing-fast Python package manager, and running a basic Flask app using Docker and `docker-compose`.
-
+Video refrence : https://www.youtube.com/watch?v=6pttmsBSi8M
 ---
 
 ## 📚 About the Project
@@ -32,7 +32,7 @@ This project demonstrates how to:
 
 ```bash
 uv init .                         # Initialize the project
-uv install flask                  # Install Flask via UV
+uv add flask                  # Install Flask via UV
 uv run app.py                     # Run the app
 uv uninstall <package>           # Uninstall a package
 uv sync                           # Install from pyproject.toml & uv.lock
